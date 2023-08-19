@@ -24,7 +24,7 @@ const OurTeam = () => {
         </p>
       </div>
       <div className="image">
-        <Image src={sujoy_hitesh_2} width={500} height={500} alt="" />
+        <img src={sujoy_hitesh_2} alt="" />
       </div>
     </div>
   );

@@ -1,32 +1,29 @@
 .ourTeam_container {
-  padding: 0 5rem;
-  margin: 0;
+  padding: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
-  // border: 1px solid white;
+  gap: 1rem;
 
   .text {
     border-left: 3px solid white;
     // border: 1px solid white;
     flex: 2;
-    // padding: 50px 50px 50px 100px;
     padding: 1rem;
     padding-left: 2rem;
+    // padding: 50px 50px 50px 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 1rem;
+    gap: 30px;
 
     h2 {
       font-size: 3rem;
-      color: var(--NexusGold);
-      // background: linear-gradient(to bottom, var(--NexusGold), #fff);
-      // -webkit-background-clip: text;
-      // background-clip: text;
-      // -webkit-text-fill-color: transparent;
+      background: linear-gradient(to bottom, var(--NexusGold), #fff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
     h3 {
       font-size: 2rem;
@@ -70,7 +67,7 @@
     align-items: center;
 
     img {
-      width: 400px;
+      width: 100%;
     }
   }
 }
